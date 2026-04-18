@@ -705,7 +705,7 @@ My technical journey is fueled by a passion for building interactive systems tha
               <a href="https://www.facebook.com/share/18SWomVbZW/" class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-sky-500/20 hover:text-sky-400 transition-all duration-300 text-gray-500">
                 <i data-lucide="facebook" class="w-4 h-4"></i>
               </a>
-              <a href="menakan1331@gmail.com" class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-red-500/20 hover:text-red-400 transition-all duration-300 text-gray-500">
+            <a href="mailto:menakan1331@gmail.com" class="w-...
                 <i data-lucide="gmail" class="w-4 h-4"></i>
               </a>
             </div>
@@ -753,7 +753,9 @@ My technical journey is fueled by a passion for building interactive systems tha
     // =====================
     // Initialize Lucide Icons
     // =====================
-    lucide.createIcons();
+    document.addEventListener('DOMContentLoaded', function() {
+  lucide.createIcons();
+});
 
     // =====================
     // Current Year
